@@ -1,6 +1,5 @@
 package ir.hossein.foodapp.room
 
-import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 

@@ -1,16 +1,15 @@
 package ir.hossein.foodapp
 
 import android.content.Context
-import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Editable
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.core.widget.addTextChangedListener
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import ir.hossein.foodapp.databinding.ActivityMainBinding
 import ir.hossein.foodapp.databinding.*
 import ir.hossein.foodapp.room.Food
 import ir.hossein.foodapp.room.FoodDao
